@@ -12,8 +12,8 @@ class Anagram
   
   def match(arr)
     arr.keep_if do |str|
-      binding.pry
       name.split('').sort == str.split('').sort
+      binding.pry
     end
   end
 #.match takes in an array of strings
