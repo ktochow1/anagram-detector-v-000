@@ -19,10 +19,8 @@ class Anagram
 #.match takes in an array of strings
 # when you call this method, you should give it an array:
 
-# match.(["hello", "goodbye", "yellow", "dog"])/a variable that's 
-#assigned to an array 
-
-#
+# match.(["hello", "goodbye", "yellow", "dog"]) || variable = array 
+#arr.keep_if 
 
 
   
