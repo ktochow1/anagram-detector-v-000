@@ -21,7 +21,7 @@ class Anagram
 
 # match.(["hello", "goodbye", "yellow", "dog"]) || variable = array 
 #.keep_if looks at array and fishes out what you're looking for
-#ex: [a,b,c,d,e,f,g].keep_if do |c| c=~
+#ex: [a,b,c,d,e,f,g].keep_if do |c| c=~ /aeiou/
 
 
   
