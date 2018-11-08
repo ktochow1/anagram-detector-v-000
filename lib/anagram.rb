@@ -12,7 +12,7 @@ class Anagram
   
   def match(arr)
     arr.keep_if do |str|
-      name.split('').sort == str.split('').sort
+      name.split('').sort #== str.split('').sort
       binding.pry
     end
   end
