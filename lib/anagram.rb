@@ -11,7 +11,7 @@ class Anagram
   
   
   def match(arr)
-    arr.map do |str|
+    arr.collect do |str|
       name.split('').sort == str.split('').sort
       # binding.pry
     end
