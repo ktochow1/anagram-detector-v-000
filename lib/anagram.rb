@@ -16,12 +16,12 @@ class Anagram
       # binding.pry
     end
   end
-#.match takes in an array of strings
+#.match takes in an array
 # when you call this method, you should give it an array:
 
 # match.(["hello", "goodbye", "yellow", "dog"]) || variable = array 
 #.keep_if looks at array and fishes out what you're looking for
-#ex: [a,b,c,d,e,f,g].keep_if {|c| c=~ /aeiou/} => ["a", "e"]
+#ex: [a,b,c,d,e,f,g].keep_if {|char| char =~ /aeiou/} => ["a", "e"]
 
 #
 
