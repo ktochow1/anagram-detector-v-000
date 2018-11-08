@@ -9,6 +9,7 @@ class Anagram
   end
 #initialize will trigger .new and make up a new instance of the class
   
+  
   def match(arr)
     arr.keep_if do |str|
       binding.pry
@@ -16,6 +17,12 @@ class Anagram
     end
   end
 #.match takes in an array of strings
+# when you call this method, you should give it an array:
+
+# match.(["hello", "goodbye", "yellow", "dog"])/a variable that's 
+#assigned to an array 
+
+#
 
 
   
