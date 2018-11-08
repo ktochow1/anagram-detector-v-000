@@ -5,6 +5,7 @@ class Anagram
   def initialize(name)
     @name = name
   end
+#initialize will 
   
   def match(arr)
     arr.keep_if do |str| 
