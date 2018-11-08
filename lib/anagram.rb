@@ -20,7 +20,8 @@ class Anagram
 # when you call this method, you should give it an array:
 
 # match.(["hello", "goodbye", "yellow", "dog"]) || variable = array 
-#arr.keep_if 
+#.keep_if looks at array and fishes out what you're looking for
+#ex: 
 
 
   
